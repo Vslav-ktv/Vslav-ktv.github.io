@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="data.css">
+</head>
+<body>
+ <div class=menu>
+        <div class=menu-element><a href="aboutUs.html">О нас</a></div>
+        <div class=menu-element><a href="ourGames.html">Наши игры</a></div>
+        <div class=menu-element><a href="howToFolowUs.html">Как к нам присоединиться?</a></div>
+        </div>
+
+<form action="mailto:vslvktv@yandex.ru" method="post" target="_blank" enctype="text/plain">
+  <h2>Пожалуйста заполните форму по английски</h2>
+  <fieldset>
+    <ul>
+      <li>
+        <label for="surname">Фамилия: </label>
+        <input type="text" name="surname" placeholder="Иванов" id="surname" required>
+      </li>
+      <li>
+        <label for="name">Имя: </label>
+          <input type="text" name="name" placeholder="Иван" id="name" required>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Как с вами связаться</legend>
+    <ul>
+      <li>
+        <label for="email">E-mail: </label>
+        <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required>
+      </li>
+      <li>
+        <label for="number">Телефон:</label>
+        <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Доп-инфо</legend>
+    <ul>
+      <li>
+    <label for="message">Вопрос</label>
+    <textarea name="comment" placeholder="Ваш вопрос" id="message"></textarea>
+      </li>
+    </ul>
+  </fieldset>
+  <div>
+    <button type="submit">Отправить</button>
+      <button type="reset">Отменить</button>
+  </div>
+</form>
+ <div id="headerF">
+  <div id="header-content"><a href="https://vk.com/public218998355"><button><img src="images/vk.png"></button></a></div>
+</div>
+</body>
+</html>
