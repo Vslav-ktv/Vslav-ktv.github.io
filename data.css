@@ -22,7 +22,7 @@ body {
     width: 10%;
     align: left;
     height: 100px;
-    background-image: url(.../images/wasd-logo.png);
+    background-image: url(../images/wasd-logo.png);
     background-size: contain;
     background-repeat: repeat-x;
 }
