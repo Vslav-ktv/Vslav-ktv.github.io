@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Как к нам присоединиться?</title>
+  <link rel="stylesheet" href="data.css">
+</head>
+<body>
+ <div class=menu>
+        <div class=menu-element><a href="aboutUs.html" style="color:#4dff00;text-decoration:none">О нас</a></div>
+        <div class=menu-element><a href="ourGames.html" style="color:#4dff00;text-decoration:none">Наши игры</a></div>
+        <div class=menu-element><a href="howToFolowUs.html" style="color:#4dff00;text-decoration:none">Как к нам присоединиться?</a></div>
+        </div>
+<form action="mailto:vslvktv@yandex.ru" method="post" target="_blank" enctype="text/plain">
+  <h2 align="center">Пожалуйста заполните форму по английски</h2>
+  <fieldset>
+    <legend align="center">О вас</legend>
+        <p align="center"><label for="surname">Фамилия:<br></label>
+        <input type="text" name="surname" placeholder="Иванов" id="surname" required><br><br>
+        <label for="name">Имя:<br></label>
+          <input type="text" name="name" placeholder="Иван" id="name" required><br><br>
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend align="center">Как с вами связаться</legend>
+        <p align="center"><label for="email">E-mail:<br></label>
+          <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required><br><br>
+        <label for="number">Телефон:<br></label>
+        <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21"><br><br>
+        </p>
+  </fieldset>
+  <fieldset>
+    <legend align="center">Доп-инфо</legend>
+    <p align="center"><label for="message">Комментарий<br></label>
+    <textarea name="comment" placeholder="Ваш комментарий" id="message"></textarea><br><br>
+    </p>
+  </fieldset>
+  <div align="center">
+    <button type="submit">Отправить</button>
+      <button type="reset">Отменить</button>
+  </div>
+</form>
+ <div id="headerF">
+  <div id="header-content"><a href="https://vk.com/public218998355"><button><img src="images/vk.png"></button></a></div>
+</div>
+</body>
+</html>
